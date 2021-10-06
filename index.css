@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Tangerine&display=swap');
+
+
+.flyer img{
+   display: flex;
+   flex-direction: row;
+   margin-left: -400px;
+   justify-content: space-around;
+   align-items: center;
+}
+ .flyer{
+    display: flex;
+   flex-direction: row;
+   
+   justify-content: space-around;
+   align-items: center;
+
+} 
+.titulo{
+    font-size: 70px;
+    color:#82a8f5 ;
+    font-family: 'Dancing Script', cursive;  
+
+}
+.somos{
+    font-family: 'Roboto', sans-serif;
+    font-size: small;
+    color:rgb(73, 77, 80) ;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+main .prod{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main div p{
+    font-size: 50px;
+    font-family:  'Amatic SC', cursive;
+    padding: 10px;
+    border: solid 10px rgb(167, 151, 139);
+    margin: 20px 10px;
+    width: 800px;
+    display: inline-block;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+   
+}
+main div video{
+    padding: 10px;
+    border: solid 10px rgb(167, 151, 139);
+    margin: 20px 10px;
+    
+  
+}
+main div img{
+    padding: 10px;
+    border: solid 10px rgb(167, 151, 139);
+    margin: 20px 10px;
+}
+.vid {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container {
+    backdrop-filter: blur(2px);
+}
+.ubicacion{
+    padding: 10px;
+    border: solid 10px rgb(167, 151, 139);
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+section div p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    color: rgb(55, 54, 54);
+}
+ /*color de navegadores*/
+ 
+table caption{
+    color: rgb(147, 100, 179);
+    font-size: 30px;
+} /*color titulo de cuadro*/
+td li{
+    color: rgb(27, 167, 167);
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    list-style-type: upper-roman ;
+} /*color de los tipos y caracteristicas*/
+tr td{
+    color: cornflowerblue;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;  
+} /*color de precio y nombre en cuadro*/
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(247, 251, 255);
+} 
+
+footer .redes .redesf{
+    margin: 40px;
+}
+
+header{
+   
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.nav{
+    background-color: rgb(167, 151, 139);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    
+}
+
+
+body{
+    
+    background: rgb(223, 216, 214);
+    background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center center
+}
+#home{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+header img{
+    width: 450; height: 450px;
+}
+table thead th{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 30px;
+}
+
+/* menu desplegable */
+
+.nav ul {
+    list-style:none;
+    
+}
+
+.nav {
+    width:100%; /*Le establecemos un ancho*/
+    margin-right: 50px; /*Centramos automaticamente*/
+    
+        margin:0px;
+        padding:0px;
+    
+}
+
+
+
+.nav li a {
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bolder;
+    padding: 10px;
+    border: solid 3px;
+    margin: 20px 10px;
+
+    background-color: rgb(167, 151, 139);
+    display: inline-block;
+    justify-content: space-around;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav li a:hover {
+    background-color:#434343;
+    transform: scale(1.05);
+}
+
+.nav li ul {
+    display:none;
+}
+
+.nav li:hover > ul {
+    display:block;
+    position: absolute;
+    background-color: rgb(167, 151, 139);
+    min-width:140px;
+
+}
+/* CONTACTANOS */
+.ubicacion{
+    padding: 10px;
+    border: solid 10px rgb(167, 151, 139);
+    margin: 20px 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* formulario contacto */
+section form{
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact_form{  
+    width: 460px; 
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fbfbfb; 
+    padding-left: 30px; 
+  }
+  input{
+    background-color: #fbfbfb; 
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+  textarea{
+    background-color: #fbfbfb; 
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #ab4493; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+    font-size: 20px;
+  }
+  label{
+    display: block; 
+    float: center;  
+  }
+  p input {
+      font-size: 20px;
+  }
+  button{
+    height: 70px; 
+    padding-left: 5px;
+    padding-right: 5px;  
+    margin-bottom: 20px; 
+    text-transform: uppercase;
+    text-align: center;
+    background-color: #ab4493; 
+    border-color: #ab4493; 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+  }
+  button p{
+    color: #fff; 
+  }
+  
+  span{
+    color: #ab4493; 
+  }
+  .aviso{
+    font-size: 30px;  
+    color: #0e0e0e;  
+  }
+  
+
+@media (max-width: 2200px) {
+    .flyer img {
+      display: none;
+    }
+  }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1234px) {
+    .flyer {
+        
+        align-items: center;
+    }
+    .vid {
+        
+        flex-direction:column;
+        justify-content: space-around;
+    }
+    .nav {
+        flex-direction: column;
+        display: flex;
+        align-content: center;
+        text-align: center;
+    }
+    tbody img {
+        width: 250px;
+        height: 300px;
+    }
+    .somos {
+        flex-direction: column;
+    }
+    section div img {
+        width: 500px;
+        height: 400px;
+    }
+    .ubicacion {
+        flex-direction: column;
+    }
+   
+  }
+ 
+
+ 

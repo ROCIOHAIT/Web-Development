@@ -30,6 +30,7 @@
     color:rgb(73, 77, 80) ;
     text-align: justify;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
@@ -42,7 +43,7 @@ main .prod{
 }
 
 main div p{
-    font-size: 50px;
+    font-size: 40px;
     font-family:  'Amatic SC', cursive;
     padding: 10px;
     border: solid 10px rgb(167, 151, 139);
@@ -57,20 +58,23 @@ main div p{
 main div video{
     padding: 10px;
     border: solid 10px rgb(167, 151, 139);
-    margin: 20px 10px;
-    
-  
+    margin: 30px 10px;
+
 }
 main div img{
     padding: 10px;
     border: solid 10px rgb(167, 151, 139);
-    margin: 20px 10px;
+    margin: 10px 10px;
+}
+main{
+margin: 20px;
 }
 .vid {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .container {
     backdrop-filter: blur(2px);
@@ -86,26 +90,24 @@ main div img{
 }
 section div p {
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 35px;
     color: rgb(55, 54, 54);
 }
  /*color de navegadores*/
  
-table caption{
-    color: rgb(147, 100, 179);
-    font-size: 30px;
-} /*color titulo de cuadro*/
+
 td li{
     color: rgb(27, 167, 167);
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    list-style-type: upper-roman ;
-} /*color de los tipos y caracteristicas*/
+    list-style: circle;
+    margin-left: 40px;
+} /*color de caracteristicas*/
 tr td{
     color: cornflowerblue;
-    font-size: 40px;
+    font-size: 50px;
     font-family: 'Dancing Script', cursive;  
-} /*color de precio y nombre en cuadro*/
+} /*color denombre en cuadro*/
 
 
 footer {
@@ -125,16 +127,7 @@ header{
     
 }
 
-.nav{
-    background-color: rgb(167, 151, 139);
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
-    list-style: none;
-    
-}
+
 
 
 body{
@@ -159,56 +152,7 @@ table thead th{
     font-size: 30px;
 }
 
-/* menu desplegable */
 
-.nav ul {
-    list-style:none;
-    
-}
-
-.nav {
-    width:100%; /*Le establecemos un ancho*/
-    margin-right: 50px; /*Centramos automaticamente*/
-    
-        margin:0px;
-        padding:0px;
-    
-}
-
-
-
-.nav li a {
-    align-items: center;
-    color: white;
-    text-decoration: none;
-    font-size: 40px;
-    font-weight: bolder;
-    padding: 10px;
-    border: solid 3px;
-    margin: 20px 10px;
-
-    background-color: rgb(167, 151, 139);
-    display: inline-block;
-    justify-content: space-around;
-    font-family: 'Roboto', sans-serif;
-}
-
-.nav li a:hover {
-    background-color:#434343;
-    transform: scale(1.05);
-}
-
-.nav li ul {
-    display:none;
-}
-
-.nav li:hover > ul {
-    display:block;
-    position: absolute;
-    background-color: rgb(167, 151, 139);
-    min-width:140px;
-
-}
 /* CONTACTANOS */
 .ubicacion{
     padding: 10px;
@@ -332,8 +276,13 @@ section form{
     .ubicacion {
         flex-direction: column;
     }
-   
+   .home {
+    width: 100px;
+    height: 100px;
+
+   }
   }
  
+
 
  
